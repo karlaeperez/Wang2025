@@ -1,6 +1,7 @@
 ---
-title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: "Replication of _When Seating Matters: Modeling Graded Social Attitudes as Bayesian Inference_"
+subtitle: "by Wang & Jara-Ettinger (2025, Proceedings of the Annual Meeting of the Cognitive Science Society)"
+author: "Karla Esmeralda Perez (perezke [at] stanford [dot] edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
@@ -12,7 +13,31 @@ format:
 
 ## Introduction
 
-[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+### Justification
+
+I want to replicate this study because I am interested in how humans make sophisticated social relationship inferences--for instance, how one person feels about another based off of perceptual cues (i.e., seating arrangements)--from very little data. This project is ideal because it elucidates how high-level cognition (e.g., theory of mind, naive utility calculus) mediates low-level perceptual cues that give rise to social inferences. Previously, I worked on a related project that sought to determine whether children can use gaze direction and duration to infer the nature of a relationship between dyads, and I hope to continue developing my knowledge about this line of work. Finally, the authors compared the human data they collected to three computational models; one of my goals this year is to learn more about computational modeling, so this project is an ideal first step.
+
+### Stimuli & Procedures
+
+The stimuli for this project consisted of 30 still images depicting two characters (Yellow and Purple); each still represented a unique seating configuration between these two characters. Participants were presented with a cover story and had to pass a comprehension test to move on to the test phase. Then, participants saw all 30 stills in randomized order; for each still participants had to answer, "How does Purple feel about Yellow?" using a slider where one end represents "_strongly dislikes_" and the other end represents "_strongly likes_."
+
+### Expected Challenges
+
+The biggest challenge will be interpreting the code and outputs for the models. I have never done modeling work first-hand, so I may grow confused and frustrated. The second biggest challenge may be hosting my study; I don't think that I will have to code a custom interface because the stimuli are just static images and participants will use scales to provide their responses (which are very common), but if I do have to code a custom interface, a challenge will be to ensure that I adequately collect all the right data needed for my analysis and correctly set the pipeline to download and store the data, e.g., make sure that refreshing the page does not overwrite the participant's data-frame. In any case, I have experience coding an interface from scratch (but am not super confident about it), so I know I can do it if it comes down to it. 
+
+#### Links
+
+[My Project Repository](https://github.com/karlaeperez/Wang2025)
+
+[Wang & Jara-Ettinger, 2025](https://escholarship.org/uc/item/10d930rk#main)
+
+In case the links fail to load (as they are doing for me):
+
+my repo: https://github.com/karlaeperez/Wang2025
+
+the orig paper: https://escholarship.org/uc/item/10d930rk#main
+
+<!--[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.-->  
 
 
 ## Methods
